@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+.env
+.claude/settings.local.json
 
 # Distribution / packaging
 .Python

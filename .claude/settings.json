@@ -1,0 +1,15 @@
+{
+	"hooks": {
+		"PreToolUse": [
+			{
+				"matcher": "Read|Grep",
+				"hooks": [
+					{
+						"type": "command",
+						"command": "uv run .hooks/read_env_hook.py"
+					}
+				]
+			}
+		]
+	}
+}
